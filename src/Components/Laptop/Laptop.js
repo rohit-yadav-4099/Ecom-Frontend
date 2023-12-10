@@ -22,6 +22,7 @@ const Laptop = () => {
                                     <h1 className="title">{item.title}</h1>
                                     <h1 className="price">Rs.{item.price}</h1>
                                     <p >{item.rating}</p>
+                                    <button className="addcart">Buy now</button>
                                     <button className="addcart">Add cart</button>
                                 </div>
                             </div>
@@ -43,6 +44,7 @@ const Laptop = () => {
                                     <h1 className="title">{item.title}</h1>
                                     <h1 className="price">Rs.{item.price}</h1>
                                     <p >{item.rating}</p>
+                                    <button className="addcart">Buy now</button>
                                     <button className="addcart">Add cart</button>
                                 </div>
                             </div>
