@@ -1,0 +1,30 @@
+.parent{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.category{
+    width: 15%;
+    height: 300px;
+    border: 1px solid red;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(15, 109, 109);
+    /* color: white; */
+}
+.rohit{
+    border: 1px solid green;
+    width: 90%;
+    height: 300px;
+}
+.home-image{
+    width: 99.94%;
+    height: 60vh;
+    /* margin-bottom: 20px; */
+  }
+  .headingIphone{
+    font-weight: bold;
+   
+
+  }

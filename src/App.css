@@ -2,37 +2,193 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*  Header    */
+
+
+.profile{
+  width: 99.8%;
+  height: 3em;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+.profileimage{
+  width: 30px;
+  height: 30px;
+}
+.myprofile{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.cartimage{
+  width: 30px;
+  height: 30px;
+}
+.sign-in{
+  text-align: center;
+  border: none;
+  background-color: white;
+}
+.search{
+  border-radius: 10px;
+  align-self: center;
+}
+.searchbox{
+  width: 30em;
+  height: 2.5em;
+  border-radius: 10px;
+}
+.searchimage{
+  width: 30px;
+  height: 30px;
+}
+.ul{
+  justify-content: space-around;
+  display: flex;
+  font-size: 25px;
+  font-weight: 450;
+  margin-top: 0px;
+  background-color: #197373;
+  height: 50px;
+  align-items: center;
+  
+}
+.home{
+  text-decoration: none;
+  color: black;
+}
+.home-image1{
+  width: 99.94%;
+  height: 60vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ****  Footer Design **** */
+
+.footerContainer {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 0;
+  color: white;
+  background-color: #197373;
+  position: absolute;
+  padding: 50px 0 30px;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer2ndDiv {
+  display: flex;
+  gap: 8em;
+}
+
+.navcontact {
+  margin-top: 40px;
+}
+
+.search {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.a {
+  color: white;
+  font-size: 15px;
+  line-height: 1%;
+}
+
+.navSocialmedia {
+  display: flex;
+  gap: 5px;
+  margin-top: 40px;
+}
+
+
+.navsicon {
+  height: 6vh;
+  width: 3vw;
+  background-color: #197373;
+  border-radius: 50%;
+}
+
+.degineby {
+  font-size: 15px;
+}
+
+.aboutuss {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+/* Home page */
+
+.homecontainer{
+  display: block;
+  width: 360px;
+  height: 400px;
+  margin-top: 30px;
+}
+.home{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.active{
+  color: yellow;
+  border-bottom: 2px solid;
+  font-weight: bold;
+}
+.titleheading{
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeimage{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.title{
+  font-size: 15px;
+}
+.price{
+  font-size: 15px;
+  color: red;
+}
+.n{
+  display: flex;
+  gap: 10px;
+ padding-left: 6%;
+ box-sizing: border-box;
+}
+.addcart{
+  width: 100px;
+  height: 30px;
+  font-size: large;
+  background-color: #197373;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid yellow;
+}
+.addcart:hover{
+  background-color: yellow;
+  color: black;
+  border: none;
+}
+
+.hoverimage{
+  width: 250px;
+  height: 380px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 6px 0px palevioletred;
+  border-radius: 10px;
+}
+.hoverimage:hover{
+  width: 270px;
+  height: 400px;
 }
