@@ -9,7 +9,7 @@ const useApi = () => {
     },[])
 
     const fetchData = async () => {
-        const data = await fetch("http://localhost:4099/dataapi/all");
+        const data = await fetch("https://ecommerce-e8kj.onrender.com/dataapi/all");
         const json = await data.json()
         setData(json)
         
