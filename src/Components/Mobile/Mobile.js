@@ -6,9 +6,9 @@ const Mobile = () => {
     return (
         <div>
             <h1 className="titleheading">Mobile</h1>
-            <div className="home-image">
+            {/* <div className="home-image">
                 <img className="home-image" src="https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-a53/buy/Master_1440x450.jpg" />
-            </div>
+            </div> */}
             <h3 className="titleheading">Iphone</h3>
             <div className="parent">
 
