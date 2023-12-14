@@ -6,9 +6,9 @@ const Laptop = () => {
     return (
         <div>
             <h1 className="titleheading">Laptop</h1>
-            <div className="home-image">
-                <img className="home-image" src="https://www.velmayil.com/velmayil_Innfo_Services/image/new/banner-1.jpg" alt="banner" />
-            </div>
+            {/* <div className="home-image">
+                <img className="home-image" src="jpghttps://www.velmayil.com/velmayil_Innfo_Services/image/new/banner-1." alt="banner" />
+            </div> */}
             <h3 className="titleheading">Dell</h3>
             <div className="n">
                 {data.filter((item) => item.id >= 19 && item.id <= 22).map(
