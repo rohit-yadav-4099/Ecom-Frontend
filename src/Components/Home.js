@@ -1,12 +1,14 @@
 
 import useApi from "../CustumHook/UseApi";
+import SliderCompo from "../Slider/SliderCompo";
 
 function Home() {
     const { data } = useApi();
     return (
         <div>
             <div className="home-image1">
-                <img className="home-image1" src="https://img.freepik.com/free-vector/gradient-horizontal-banner-template-cyber-monday-sale_23-2150842096.jpg" />
+                {/* <img className="home-image1" src="https://img.freepik.com/free-vector/gradient-horizontal-banner-template-cyber-monday-sale_23-2150842096.jpg" /> */}
+                <SliderCompo/>
             </div>
             <h1>BEST SELLER</h1>
             <div className="n">
